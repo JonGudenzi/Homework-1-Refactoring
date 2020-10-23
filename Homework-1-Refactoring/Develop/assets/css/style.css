@@ -24,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,7 +69,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -134,7 +134,7 @@ p {
     max-width: 150px;
 }
 /* 3 sections in main which can be consolidated */
-.search-engine-optimization {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +143,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +152,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,29 +161,29 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+main section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+main section img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+main section img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
