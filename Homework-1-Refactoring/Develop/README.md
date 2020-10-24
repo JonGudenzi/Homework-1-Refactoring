@@ -42,12 +42,36 @@ In the case on this page, a link from the nav bar is not dirrecting to where it 
 **Before: Using class instead of id**
 <br>
 <br>
-<img src="assets/images/section-class.png" width= "700" height="100">
+<img src="assets/images/section-class.png" width="700" height="100">
+
 <br>
 <br>
 
 **After: Using id to correct direct link from the nav bar**
 <br>
 <br>
-<img src="assets/images/section-id.png" width= "500" height="100">
+<img src="assets/images/section-id.png" width="500" height="100">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Page loading speed is important as well. By combining as many css selectors with identical properties as we can will speed up the load and refresh of the page. This will happen by reducing the amount of http requests from the browser.
+Here is an example of this on this webpage.
 
+**Before: Unconsolidated css**
+<br>
+<br>
+<img src="assets/images/css-unconsolidated.png" width="900" height="400">
+
+<br>
+<br>
+
+**After: Combined selectors with identical properties**
+<br>
+<br>
+<img src="assets/images/css-consolidated.png" width="500" height="150">
+<br>
+<br>
+As you can see it it unnecessary it have multiple tags of css when the properties are the same. This will only slow things down and it also makes it less confusing for other developers that might work on the same code later on.
