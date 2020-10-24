@@ -1,6 +1,17 @@
 # Homework-1-Refactoring
 **First homework assignment. Refactoring**
 
+<br>
+<br>
+<br>
+
+[Click here for the deployed application](https://jongudenzi.github.io/Homework-1-Refactoring/)
+<br>
+<br>
+
+[Click here for the GitHub repository](https://github.com/JonGudenzi/Homework-1-Refactoring)
+<br>
+<br>
 This website is an advertizing agency that helps businesses have more accessibility in their websites. Being that accessibility is what they offer, it is important that they themselves have this on their website. 
 
 Our User Story for this project is to refactor a marketing agencies website to be better optimized for search engines.
@@ -75,3 +86,4 @@ Here is an example of this on this webpage.
 <br>
 <br>
 As you can see it it unnecessary it have multiple tags of css when the properties are the same. This will only slow things down and it also makes it less confusing for other developers that might work on the same code later on.
+This page should be much easier to understand the code now from a browser, search engine, and future developers on this site.  Not to mention the accessibility for disabled people. Website readers for the blind will also be able to read this code much more efficiently with no change to the actual look and layout of the page.
